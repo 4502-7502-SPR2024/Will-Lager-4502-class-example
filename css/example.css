@@ -1,3 +1,5 @@
+
+
 nav {
 	text-transform: uppercase;
 	font-family: ;
@@ -29,11 +31,14 @@ li {
 
 img {
 	max-width: 100%;
+	padding: 5px;
+	margin: 5px;
 
 }
 
 body img {
-	max-width: 10rem;
+/*	max-width: 10rem;*/
+
 }
 
 /*Classes start*/
@@ -43,7 +48,7 @@ body img {
 
 /*@media {}*/
 
-/*@media (min-width: 400px) {
+/*\{
   // Styles for viewports wider than 400 pixels.
 	200px
 	576px 
@@ -55,6 +60,9 @@ body img {
 @media (max-width:200px) {
 	body {
 		background: hotpink;
+	}
+	img {
+		max-width: 100%;
 	}
 
 }
@@ -83,32 +91,3 @@ body img {
  		background: #fff;
 	}
 }
-/*
-@media (min-width: 25em) {
-  // Styles for viewports wider than 25em.
-
-
-
-
-
-}
-
-@media (min-width: 15em) {
-  // Styles for viewports wider than 15em.
-
-body {
-	background: greenyellow;
-}
-
-
-
-}
-
-@media (min-width: 30em) and (max-width: 50em) {
-  /* … */
-
-body {
-	background: red;
-}
-
-}*/
