@@ -6,7 +6,7 @@ nav {
 }
 
 body {
-
+	background: mediumpurple;
 }
 
 title {
@@ -41,7 +41,17 @@ body img {
 
 }
 
+#test {
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
 /*Classes start*/
+
+.shadow {
+	text-shadow: 10px 1px 2px orangered;	
+}
+
+
 
 /*for your media queries this article is a good resource /**/
 /*https://web.dev/learn/design/media-queries?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2F%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2Fmedia-queries*/*/
@@ -70,6 +80,24 @@ body img {
 @media (min-width: 201px) and (max-width:575px) {
 	body {
 		background: darkcyan;
+	}
+	nav {
+/*		padding: 1rem;*/
+		margin: 1rem;
+	}
+
+	nav a {
+		padding: 0.5rem;
+		margin: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+	img {
+		max-width: 90%;
+		border: 5px solid crimson;
+		border-radius: 15rem;
 	}
 }
 
