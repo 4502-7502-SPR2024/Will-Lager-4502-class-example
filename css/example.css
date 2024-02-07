@@ -1,1 +1,73 @@
-this is a css file
+nav {
+	text-transform: uppercase;
+	font-family: ;
+}
+
+body {
+
+}
+
+title {
+
+}
+
+h1 {
+	font-family: ;
+	font-size: 5rem;
+}
+
+p {
+	font-family: ;
+	font-size: 1.2rem;
+}
+
+li {
+	font-family: ;
+	font-size: 1rem;
+	color: red;
+}
+
+
+
+for your media queries this article is a good resource /*
+https://web.dev/learn/design/media-queries?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2F%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2Fmedia-queries*/
+
+/*@media {}*/
+
+/*@media (min-width: 400px) {
+  // Styles for viewports wider than 400 pixels.
+
+}
+*/
+
+
+@media (min-width: 25em) {
+  // Styles for viewports wider than 25em.
+
+body {
+	background: darkcyan;
+}
+
+
+
+}
+
+@media (min-width: 15em) {
+  // Styles for viewports wider than 15em.
+
+body {
+	background: greenyellow;
+}
+
+
+
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+
+body {
+	background: red;
+}
+
+}
