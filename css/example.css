@@ -27,26 +27,67 @@ li {
 	color: red;
 }
 
+img {
+	max-width: 100%;
 
+}
 
-for your media queries this article is a good resource /*
-https://web.dev/learn/design/media-queries?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2F%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2Fmedia-queries*/
+body img {
+	max-width: 10rem;
+}
+
+/*Classes start*/
+
+/*for your media queries this article is a good resource /**/
+/*https://web.dev/learn/design/media-queries?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2F%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2Fmedia-queries*/*/
 
 /*@media {}*/
 
 /*@media (min-width: 400px) {
   // Styles for viewports wider than 400 pixels.
-
+	200px
+	576px 
+	768px
+	992px
+	1200px
 }
 */
+@media (max-width:200px) {
+	body {
+		background: hotpink;
+	}
+
+}
+
+@media (min-width: 201px) and (max-width:575px) {
+	body {
+		background: darkcyan;
+	}
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+	body {
+		background: greenyellow;
+	}
+}
 
 
+@media (min-width: 769px) and (max-width:1000px) {
+	body {
+		background: lightcyan;
+	}
+}
+
+@media (min-width: 1001px)  {
+ 	body {
+ 		background: #fff;
+	}
+}
+/*
 @media (min-width: 25em) {
   // Styles for viewports wider than 25em.
 
-body {
-	background: darkcyan;
-}
+
 
 
 
@@ -70,4 +111,4 @@ body {
 	background: red;
 }
 
-}
+}*/
