@@ -6,7 +6,8 @@ nav {
 }
 
 body {
-	background: mediumpurple;
+/*	background: mediumpurple;*/
+	background: linear-gradient(#e66465, #9198e5);
 }
 
 title {
@@ -113,7 +114,7 @@ footer a {
 
 @media (min-width: 576px) and (max-width:768px) {
 	body {
-		background: greenyellow;
+		background: linear-gradient(#e66465, #9198e5);
 	}
 }
 
