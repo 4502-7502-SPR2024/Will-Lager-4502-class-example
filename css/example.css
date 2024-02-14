@@ -8,6 +8,9 @@ nav {
 body {
 /*	background: mediumpurple;*/
 	background: linear-gradient(#e66465, #9198e5);
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
 }
 
 title {
@@ -20,7 +23,7 @@ h1 {
 }
 
 p {
-	font-family: ;
+	font-family: "Crimson Text", serif;
 	font-size: 1.2rem;
 }
 
@@ -58,6 +61,47 @@ a:link {
 
 .copyright {
 	font-size: 0.9rem;
+}
+
+.flex-example {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.blue {
+	padding: 1rem;
+	min-width: 50px;
+	min-height: 50px;
+	background: blueviolet;
+	border: 5px solid darkred;
+}
+
+.red {
+	padding: 1rem;
+	min-width: 50px;
+	min-height: 50px;
+	background: darkcyan;
+	border: 5px dotted darkgreen;
+}
+
+.green {
+	padding: 1rem;
+		min-width: 50px;
+	min-height: 50px;
+	background: seagreen;
+	border: 5px solid mediumpurple; 
+}
+
+.orange {
+	padding: 1rem;
+		min-width: 50px;
+	min-height: 50px;
+	background: lightcoral;
+	border: 5px dotted darkorange;
 }
 
 footer a {
