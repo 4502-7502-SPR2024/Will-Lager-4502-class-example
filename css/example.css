@@ -1,6 +1,7 @@
 
 
 nav {
+
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
@@ -25,8 +26,14 @@ nav a:visited {
 	color: darkcyan;
 }
 
+nav a:hover {
+	color: #ffbb76;
+	background-color: #003d3d;
+}
 
 body {
+	 scrollbar-color: red orange;
+  scrollbar-width: thin;
 /*	background: mediumpurple;*/
 	background: linear-gradient(#e66465, #9198e5);
 	display: flex;
@@ -114,7 +121,9 @@ a:link {
 	background: #b17200;
 /*	color: #c4c4ff;*/
 	color: lightcyan;
+	padding-left: 1rem;
 }
+
 
 
 /*Classes start*/
@@ -134,7 +143,7 @@ a:link {
 	gap: 10px;
   gap: 10px 20px; /* row-gap column gap */
   row-gap: 10px;
-  column-gap: 20px;
+  column-gap: 10px;
 }
 
 .blue {
@@ -199,6 +208,7 @@ footer a {
 
 @media (min-width: 201px) and (max-width:575px) {
 	body {
+		
 		background: darkcyan;
 
 	}
@@ -228,16 +238,20 @@ footer a {
 		background: #ffbb76;
 		border-radius: 0.1rem;
 		border: 1px solid #76baff;
-		color: darkcyan;
+		color: #003d3d;
 	}
 
 nav a:visited {
-	color: darkcyan;
+	color: darkred;
+	
 }
 
 nav a:link {
-	color: darkcyan;
+	color: #003d3d;
+
 }
+
+
 
 	main {
 	display: flex;
