@@ -297,6 +297,18 @@ a:hover {
 	color: purple;
 }
 
+ol li {
+	color: lightgray; !important;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.list45 {
+	font-size: 5rem;
+}
+
 }
 
 @media (min-width: 576px) and (max-width:768px) {
