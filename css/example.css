@@ -282,7 +282,7 @@ section {
 	margin: 0 auto;
 	object-fit: contain;
 	max-width: 100%;
-	border: 5px solid crimson;
+	border: none;
 	border-radius: 15rem;
 }
 
