@@ -240,6 +240,7 @@ wiki link wiki-link*/
 /*	flex-wrap: wrap;*/
 	box-shadow: inset 1rem 1rem gold;
 	border-radius: 3px;
+/*	max-width: 300px;*/
 }
 
 
