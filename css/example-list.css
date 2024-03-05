@@ -59,7 +59,7 @@ nav ul {
 	display: flex;
 	align-items: stretch;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	
 }
 
@@ -131,7 +131,7 @@ footer {
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
-	margin: 1rem;
+	margin: 0rem;
 }
 
 h2 {
@@ -238,7 +238,7 @@ wiki link wiki-link*/
 .list-item {
 	display: flex;
 /*	flex-wrap: wrap;*/
-	box-shadow: inset 1rem 1rem gold;
+	box-shadow: inset 1rem 1rem #f9f3db;
 	border-radius: 3px;
 /*	max-width: 300px;*/
 }
@@ -247,7 +247,8 @@ wiki link wiki-link*/
 
 .list-item h2 {
 	display: flex;
-	font-family: 'Pixelify Sans', cursive; 
+	font-family: "Roboto Slab", serif;
+/*	font-family: 'Pixelify Sans', cursive; */
 /*	This will fall back to a default font when not connected*/
 }
 
@@ -466,6 +467,7 @@ background-color: rgba(218,165,32,0.5);
 }
 
 .lead-image img {
+	float: right;
 /*	width: 100%;*/
 /*	margin: 1rem;*/
 	margin: auto;
@@ -726,7 +728,9 @@ nav ul li a {
 
 	body {
 
-	background-color: skyblue;
+/*	background-color: #dbf0f9;*/
+/*	background-image: file:///D:/4502-class-example/4502-class-example/img/2001.png;*/
+/*background-image: url("../img/2001.png");*/
 }
 
 	}
