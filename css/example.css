@@ -202,6 +202,20 @@ footer a {
 	1200px
 }
 */
+
+.map {
+	display: flex;
+	justify-content: center;
+}
+
+
+.map-type-01 {
+	display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width:200px) {
 	body {
 		background: hotpink;
