@@ -216,6 +216,14 @@ footer a {
   align-items: center;
 }
 
+.map-type-01 p {
+
+}
+
+.map-type-01 iframe h2 {
+
+}
+
 @media (max-width:200px) {
 	body {
 		background: hotpink;
@@ -280,7 +288,13 @@ nav a:link {
 section {
 	margin-top: 1rem;
 }
+.map-type-01 {
+	background: #fff;
 
+
+
+
+}
 
 	h1 {
 		font-size: 2rem;
