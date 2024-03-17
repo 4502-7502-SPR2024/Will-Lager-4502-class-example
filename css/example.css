@@ -1,3 +1,21 @@
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
 
 
 nav {
@@ -183,6 +201,77 @@ a:link {
 	background: lightcoral;
 	border: 5px dotted darkorange;
 }
+
+
+
+/*Photo gallery css for gallery-test*/
+
+.gallery-example {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+	background-color: orange;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
+
+.gallery-image {
+	max-width: 80%;
+
+}
+
+.gallery-image img {
+	width: 100%;
+}
+
+.hideThis {
+	display: none;
+}
+
+.example-image {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+
+}
+
+.example-image img {
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
+}
+
+
+
+/*end gallery */
 
 footer a {
 	color: darkcyan;
