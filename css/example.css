@@ -66,8 +66,16 @@ body {
  }
 
 main {
+	
 	display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 
+}
+
+content {
+	margin: 0 auto;
 }
 
 .wednesday {
@@ -204,13 +212,33 @@ a:link {
 
 
 
-/*Photo gallery css for gallery-test*/
+/*Photo gallery css for gallery*/
+
+.gallery-home {
+	display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.gallery-section {
+	
+	max-width: 800px;
+
+}
+
 
 .gallery-example {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+
+
+
 }
 
 
@@ -373,6 +401,7 @@ nav a:link {
 	main {
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 section {
 	margin-top: 1rem;
