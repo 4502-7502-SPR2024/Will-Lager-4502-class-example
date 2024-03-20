@@ -264,7 +264,7 @@ wiki link wiki-link*/
 }
 
 .list-item .desc-label {
-	display: flex;
+/*	display: flex;*/
 	font-weight: 400;
 	margin-left:1rem;
 	padding: 0.25rem;
