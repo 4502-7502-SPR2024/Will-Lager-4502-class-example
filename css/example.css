@@ -17,6 +17,10 @@
   font-size: 2rem;
 }
 
+.desc-label a {
+	display: inline;
+}
+
 
 nav {
 
