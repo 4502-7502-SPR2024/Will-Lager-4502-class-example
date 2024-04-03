@@ -231,7 +231,19 @@ example-image {
 /*eclipse gallery classes*/
 
 .eclipse {
-	background: linear-gradient(#faf6f3, #a6627c);
+	background: linear-gradient(#faf6f3, #eddfe4);
+}
+
+
+.eclipse button {
+	font-family: "Anta", sans-serif;
+	background-color: #918151;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.2rem;
+}
 }
 
 /*
@@ -1011,7 +1023,7 @@ button {
 	min-width: 10rem;
 	font-size: 1.2rem;
 	border-radius: 0.5rem;
-	border: lightyellow 1px solid;
+	border: lightgray 1px dotted;
 }
 
 .button-start {
