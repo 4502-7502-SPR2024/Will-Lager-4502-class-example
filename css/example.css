@@ -181,7 +181,7 @@ button_previous {  }
 .stepper {  }
 
 button {
-	background-color: orange;
+	background-color: #918151;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
@@ -228,6 +228,11 @@ example-image {
 	flex-wrap: wrap;
 }
 
+/*eclipse gallery classes*/
+
+.eclipse {
+	background: linear-gradient(#faf6f3, #a6627c);
+}
 
 /*
 
@@ -999,12 +1004,14 @@ button_previous {  }
 .stepper {  }
 
 button {
-	background-color: orange;
+	background-color: #918151;
+	color: #ffffff;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
 	font-size: 1.2rem;
 	border-radius: 0.5rem;
+	border: lightyellow 1px solid;
 }
 
 .button-start {
