@@ -204,6 +204,7 @@ button {
 
 .hideThis {
 	display: none;
+/*	background-color: orange;*/
 }
 
 example-image {
@@ -226,6 +227,7 @@ example-image {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 /*
 
