@@ -242,7 +242,7 @@ example-image {
 	padding: 1rem;
 	min-width: 10rem;
 	font-size: 1.2rem;
-	border-radius: 0.2rem;
+	border-radius: 0.5rem;
 }
 }
 
@@ -1016,7 +1016,7 @@ button_previous {  }
 .stepper {  }
 
 button {
-	background-color: #918151;
+	background-color: goldenrod;
 	color: #ffffff;
 	margin: 1rem;
 	padding: 1rem;
