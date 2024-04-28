@@ -1180,6 +1180,7 @@ section {
 		background: #b17200;
 		color: skyblue;
 		text-align: center;
+		text-transform: capitalize;
 	}
 	img {
 
